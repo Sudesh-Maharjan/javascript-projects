@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(198, 149, 149);
+}
+h1{
+  font-family: cursive;
+  color: black;
+  text-align: center;
+}
+.img{
+  width: 51%;
+   height: 28%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.img:hover{
+  box-shadow:3px 3px 1px rgb(220, 217, 217) ;
+}
+.name{
+  /* position: absolute;
+  top: 42%;
+  right:83.5%; */
+  font-family: var(--ff-secondary);
+  font-size: 20px;
+  background-color: antiquewhite;
+  width: 22%;
+  text-decoration: underline;
+  background-color: rgb(33, 32, 30);
+  color: white;
+  border-radius: 5px;
+}
+.price,.dollar{
+  font-family: var(--ff-secondary);
+  background-color: antiquewhite;
+  width: 22%;
+  background-color: rgb(63, 61, 56);
+  color: white;
+  border-radius: 5px;
+}
+.paragraph{
+  height: 18%;
+  font-family: var(--ff-secondary);
+  background-color: rgb(118, 113, 103);
+  color: white;
+  border-radius: 8px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+.menu{
+  background-color:rgb(197, 178, 140);
+  width: 1000px;
+position: absolute;
+right: 19%;
+border-radius: 8px;
+display: grid;
+grid-template-columns:1fr 1fr;
+box-shadow: 10px 10px 5px rgb(90, 87, 87);
+}
+.main-section{
+  height: 141%;
+}
+
+.btn{
+  background-color: rgb(236, 226, 226);
+  color: rgb(198, 149, 149);
+  border-radius: 5px;
+  width: 66px;
+  height: 29px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 2px 5px;
+  transition: 0.5s;
+}
+.btn:hover{
+  background-color: rgb(198, 149, 149);
+  color: whitesmoke;
+}
+.menu-btn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}

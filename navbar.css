@@ -1,0 +1,57 @@
+h2{
+    color: wheat;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.links{
+    height: auto;
+    display: flex;
+    padding-top: 10px;
+}
+.link{
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 35px;
+}
+.link:hover{
+    background-color: wheat;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+a{
+    color: wheat;
+}
+a:hover{
+    color: black;
+}
+.nav-toggle{
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    right: 11px;
+    height: 40px;
+    width: 40px;
+}
+.nav-toggle:hover{
+    height: 45px;
+    width: 45px;
+    transition: 0.2s;
+}
+/* a:hover{
+    color: black;
+} */
+.nav-bar{
+    background-color: black;
+    border-radius: 7px;
+    display: flex;
+}
+.show-links{
+    height:10rem;
+    display: block;
+    
+}
+@media (max-width:800px){
+    .links{
+        display: none;
+    }
+}

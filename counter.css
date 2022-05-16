@@ -1,0 +1,15 @@
+.btn{
+    width: 80px;
+    height: 30px;
+    background-color: wheat;
+    border-radius: 7px;
+}
+.button,h1{
+    text-align: center;
+}
+.number{
+    font-size: 80px;
+}
+.numbox{
+    text-align: center;
+}

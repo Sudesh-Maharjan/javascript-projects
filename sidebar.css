@@ -1,0 +1,167 @@
+h2{
+    color: wheat;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.links{
+    height: auto;
+    display: inline;
+    padding-top: 10px;
+}
+.link{
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 35px;
+    background-color: black;
+}
+.link:hover{
+    background-color: wheat;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+a{
+    color: wheat;
+}
+a:hover{
+    color: black;
+}
+.nav-toggle{
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    font-size: 31px;
+    top: 26px;
+
+}
+.nav-toggle:hover{
+    height: 45px;
+    width: 45px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+/* a:hover{
+    color: black;
+} */
+.nav-bar{
+    background-color: black;
+    border-radius: 7px;
+    display: flex;
+}
+.show-links{
+    height:10rem;
+    display: block;
+    
+}
+
+.side-bar{
+    width: 40%;
+    height: 40%;
+    background-color: rgb(227, 218, 203);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(169, 158, 158);
+    transform: translate(-106%);
+    transition: 0.6s;
+}
+@media (max-width:800px){
+    .side-bar{
+       width: 400px;
+    }
+}
+.side-btn{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    color: red;
+    background-color: white;
+    border-radius: 7px;
+    transition: 0.3s;
+    font-size: 35px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+.side-btn:hover{
+    height: 43px;
+    width: 43px;
+}
+.side-bar-header{
+    display:flex;
+}
+.show-side-bar{
+    transform: translate(0%);
+    transition: 0.6s;
+}
+
+/* model project from here */
+.model-box-container,.model-overlay-container{
+    background-color: rgb(185, 180, 180);
+    border-radius: 7px;
+    box-shadow:10px 10px 5px rgb(169, 158, 158);
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    top: 55%;
+    right: 33%;
+}
+.model-text{
+    color: black;
+    position: absolute;
+    right: 35%;
+    top: 24%;
+}
+.model-btn{
+    position: absolute;
+    right: 186px;
+    top: 60%;
+    width: 95px;
+    height: 35px;
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: rgb(14, 173, 110);
+}
+.model-btn:hover{
+    cursor: pointer;
+    background-color: rgb(140, 123, 237);
+    border-radius: 5px;
+    color: white;
+
+}
+.model-overlay-container{
+    background-color: whitesmoke;
+    width: 25%;
+    height: 35%;
+    position: absolute;
+    top: 403px;
+    right: 542px;
+    display: none;
+}
+.model-overlay-text{
+    color: black;
+    position: absolute;
+    right: 31%;
+    top: 24%;
+}
+
+.model-overlay-cross-btn{
+    position: absolute;
+    right: 7px;
+    top: 2%;
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: rgb(14, 173, 110);
+}
+.model-overlay-cross-btn:hover{
+    cursor: pointer;
+    background-color: rgb(140, 123, 237);
+    border-radius: 5px;
+    color: white;
+}
+.show-overlay-container{
+    display:block ;
+    transition: 1.6s;
+}

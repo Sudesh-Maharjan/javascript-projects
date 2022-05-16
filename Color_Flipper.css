@@ -1,0 +1,18 @@
+.Container{
+    font-size: 25px;
+    background-color: black;
+    border-radius: 5px;
+    color: wheat;
+}
+.btn{
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 7px;
+    height: 40px;
+    width: 70px;
+    
+}
+.hex{
+    color: skyblue;
+}

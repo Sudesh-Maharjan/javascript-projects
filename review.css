@@ -1,0 +1,42 @@
+.surprise{
+    width: 100px;
+    height: 35px;
+    background-color: wheat;
+    border-radius: 7px;
+}
+.surprise:hover{
+    cursor: pointer;
+    background-color: white;
+   border: 5px;
+   border-radius: 7px;
+}
+.body{
+    text-align: center;
+    background-color: rgb(175, 214, 229);
+}
+.h1{
+    text-align: center;
+}
+.btn{
+    width: 25px;
+    height: 20px;
+    background-color:beige;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(9, 224, 239, 0.781);
+}
+.img{
+    width: 20%;
+    height: 30%;
+    transition: width 1s, height 2s;
+    border-radius: 13px;
+    box-shadow: 5px 5px 3px rgb(134, 130, 130);
+}
+.img:hover{
+    width: 23%;
+    height:33%;
+    box-shadow: 10px 10px 5px rgb(90, 87, 87);
+    cursor: pointer;
+    
+}
